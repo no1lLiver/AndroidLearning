@@ -12,11 +12,11 @@ public class Cat extends Animal {
     }
 
     //TODO 3 какой модификатор нужно сделать чтобы изменять данное поле можно было только при помощи setter
-    public int pawCount;
+    private int pawCount;
 
 
     //TODO 2 какой модификатор доступа нужно поставить чтобы из класса MainActivity можно было получить доступ к методу stayStraightToDoor
-    void stayStraightToDoor() {
+    protected void stayStraightToDoor() {
         Log.e("Cat", "stayStraightToDoor");
     }
 
