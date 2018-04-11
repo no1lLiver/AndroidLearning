@@ -5,7 +5,7 @@ public class Animal {
 
 
     //TODO 1 какой идентификатор надо поставить чтобы у класса Tiger и Cat можно было вызвать метод makeSound()
-    void makeSound(){
+    public void makeSound(){
 
     }
 
